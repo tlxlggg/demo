@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.demo</groupId>
-	<artifactId>zookeeper</artifactId>
+	<artifactId>multi_thread</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>zookeeper</name>
+	<name>multi_thread</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>
@@ -22,19 +22,6 @@
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
-		</dependency>
-		
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>
-		
-		<dependency>
-		    <groupId>org.apache.curator</groupId>
-		    <artifactId>curator-recipes</artifactId>
-		    <!-- 注意版本问题，否则会出错。不同的zookeeper版本对应不同的curator版本。
-		    	详情见：http://curator.apache.org/zk-compatibility.html -->
-		    <version>2.13.0</version>
 		</dependency>
 
 		<dependency>
